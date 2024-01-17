@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/react-gallery-/static/css/main.6095a51d.css",
+    "main.js": "/react-gallery-/static/js/main.795cc99c.js",
+    "static/media/Lato-Italic.ttf": "/react-gallery-/static/media/Lato-Italic.a9f3ee269217f44df65f.ttf",
+    "index.html": "/react-gallery-/index.html",
+    "main.6095a51d.css.map": "/react-gallery-/static/css/main.6095a51d.css.map",
+    "main.795cc99c.js.map": "/react-gallery-/static/js/main.795cc99c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6095a51d.css",
+    "static/js/main.795cc99c.js"
+  ]
+}
