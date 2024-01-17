@@ -1,0 +1,40 @@
+.img-wrapper{
+    width: 100%;
+    display: grid;
+    margin: 50px 0;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    transition: all 0.5s;
+}
+.img-wrapper > .img{
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    position: relative;
+    transition: all 0.5s;
+}
+.img:hover{
+    background-size: calc(cover + 10px);
+}
+.delete-img{
+    position: absolute;
+    left: 50%;
+    bottom: 50px;
+    transform: translate(-50%, -50%);
+    text-transform: capitalize;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #000;
+    cursor: pointer;
+    opacity: 0;
+    transition: all 0.5s;
+}
+.img:hover .delete-img{
+    opacity: 1;
+}
